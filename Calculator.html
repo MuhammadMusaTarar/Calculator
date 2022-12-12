@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css" />
+    <script src="Calculator.js"></script>
+  </head>
+
+  <body>
+    <h1 id="h1">Calculator</h1>
+    <br />
+
+    <div class="calculator">
+      <input id="textBox" type="text" placeholder="0" />
+
+      <div class="calculator-buttons">
+        <button
+          id="calcButtonC"
+          class="isClear"
+          onclick="isClear()"
+          onmouseover="mouseOver('calcButtonC')"
+          onmouseout="mouseOut('calcButtonC')"
+        >
+          <strong> C </strong>
+        </button>
+
+        <button
+          id="calcButton/"
+          class="buttonOperators"
+          onclick="press('/')"
+          onmouseover="mouseOver('calcButton/')"
+          onmouseout="mouseOut('calcButton/')"
+        >
+          &divide;
+        </button>
+
+        <button
+          id="calcButton7"
+          onclick="press('7')"
+          onmouseover="mouseOver('calcButton7')"
+          onmouseout="mouseOut('calcButton7')"
+        >
+          7
+        </button>
+
+        <button
+          id="calcButton8"
+          onclick="press('8')"
+          onmouseover="mouseOver('calcButton8')"
+          onmouseout="mouseOut('calcButton8')"
+        >
+          8
+        </button>
+
+        <button
+          id="calcButton9"
+          onclick="press('9')"
+          onmouseover="mouseOver('calcButton9')"
+          onmouseout="mouseOut('calcButton9')"
+        >
+          9
+        </button>
+
+        <button
+          id="calcButton*"
+          class="buttonOperators"
+          onclick="press('*')"
+          onmouseover="mouseOver('calcButton*')"
+          onmouseout="mouseOut('calcButton*')"
+        >
+          &times;
+        </button>
+
+        <button
+          id="calcButton4"
+          onclick="press('4')"
+          onmouseover="mouseOver('calcButton4')"
+          onmouseout="mouseOut('calcButton4')"
+        >
+          4
+        </button>
+
+        <button
+          id="calcButton5"
+          onclick="press('5')"
+          onmouseover="mouseOver('calcButton5')"
+          onmouseout="mouseOut('calcButton5')"
+        >
+          5
+        </button>
+
+        <button
+          id="calcButton6"
+          onclick="press('6')"
+          onmouseover="mouseOver('calcButton6')"
+          onmouseout="mouseOut('calcButton6')"
+        >
+          6
+        </button>
+
+        <button
+          id="calcButton-"
+          class="buttonOperators"
+          onclick="press('-')"
+          onmouseover="mouseOver('calcButton-')"
+          onmouseout="mouseOut('calcButton-')"
+        >
+          &minus;
+        </button>
+
+        <button
+          id="calcButton1"
+          onclick="press('1')"
+          onmouseover="mouseOver('calcButton1')"
+          onmouseout="mouseOut('calcButton1')"
+        >
+          1
+        </button>
+
+        <button
+          id="calcButton2"
+          onclick="press('2')"
+          onmouseover="mouseOver('calcButton2')"
+          onmouseout="mouseOut('calcButton2')"
+        >
+          2
+        </button>
+
+        <button
+          id="calcButton3"
+          onclick="press('3')"
+          onmouseover="mouseOver('calcButton3')"
+          onmouseout="mouseOut('calcButton3')"
+        >
+          3
+        </button>
+
+        <button
+          id="calcButton+"
+          class="buttonOperators"
+          onclick="press('+')"
+          onmouseover="mouseOver('calcButton+')"
+          onmouseout="mouseOut('calcButton+')"
+        >
+          &plus;
+        </button>
+
+        <button
+          id="calcButton0"
+          onclick="press('0')"
+          onmouseover="mouseOver('calcButton0')"
+          onmouseout="mouseOut('calcButton0')"
+        >
+          0
+        </button>
+
+        <button
+          id="calcButton="
+          class="isEquals"
+          onclick="isEquals('=')"
+          onmouseover="mouseOver('calcButton=')"
+          onmouseout="mouseOut('calcButton=')"
+        >
+          &equals;
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
